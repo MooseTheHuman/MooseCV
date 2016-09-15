@@ -1,12 +1,12 @@
-.main-header,
-.header {
-    background: #ccc;
+.followMeBar {
+    background: #999;
+    padding: 10px 0px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
     width: 100%;
-    z-index: 2;
     height: 6em;
     margin: auto 0;
     text-align: center;
+    color: #fff;
 }
 
 .header h1 {
@@ -35,16 +35,4 @@ body {
 
 p {
     font-family: helvetica;
-}
-
-.experience {
-    z-index: 3;
-}
-
-.education {
-    z-index: 4;
-}
-
-.skills {
-    z-index: 5;
 }
