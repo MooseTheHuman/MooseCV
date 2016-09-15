@@ -5,16 +5,6 @@
     z-index: 1;
 }
 
-.transformation {
-    position: relative;
-    top: 100px;
-}
-
-.main-body {
-    position: relative;
-    top: 120px;
-}
-
 .main-header,
 .header {
     background: #ccc;
@@ -26,9 +16,27 @@
     text-align: center;
 }
 
+.header h1 {
+    display: inline-block;
+}
+
 .content {
     margin: 10%;
     align-content: center;
+}
+
+.main-body {
+    position: relative;
+    top: 120px;
+}
+
+.transformation {
+    position: relative;
+    top: 100px;
+}
+
+body {
+    background: whitesmoke;
 }
 
 p {
@@ -45,8 +53,4 @@ p {
 
 .skills {
     z-index: 5;
-}
-
-.header h1 {
-    display: inline-block;
 }
