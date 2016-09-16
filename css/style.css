@@ -3,16 +3,13 @@
     background: linear-gradient(#999, #000);
     padding: .8em 3em;
     box-shadow: 0 .05em .25em rgba(0, 0, 0, .7);
-    width: 100%;
-    margin: auto 0;
-    text-align: justify;
+    /* text-align: justify; */
     color: #fff;
 }
 
 body {
     background: whitesmoke;
-    padding: 0;
-    margin: 0;
+    margin: auto 0;
 }
 
 p {
@@ -25,5 +22,6 @@ p {
 }
 
 .moose {
-    margin-left: 25%;
+    margin: auto 0;
+    text-align: center;
 }
