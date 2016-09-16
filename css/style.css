@@ -1,52 +1,27 @@
-.main-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
+.stickhead,
+.fixed {
+    background: linear-gradient(#999, #000);
+    padding: .8em 3em;
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .7);
+    /* text-align: justify; */
+    color: #fff;
 }
 
-.transformation {
-    position: relative;
-    top: 100px;
-}
-
-.main-body {
-    position: relative;
-    top: 120px;
-}
-
-.main-header,
-.header {
-    background: #ccc;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
-    width: 100%;
-    z-index: 2;
-    height: 100px;
+body {
+    background: whitesmoke;
     margin: auto 0;
-    text-align: center;
-}
-
-.content {
-    margin: 10%;
-    align-content: center;
 }
 
 p {
-    font-family: helvetica;
+    font-family: helvetica, trebuchet ms, sans-serif;
 }
 
-.experience {
-    z-index: 3;
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.education {
-    z-index: 4;
-}
-
-.skills {
-    z-index: 5;
-}
-
-.header h1 {
-    display: inline-block;
+.moose {
+    margin: auto 0;
+    text-align: center;
 }

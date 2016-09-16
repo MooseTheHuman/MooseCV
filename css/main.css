@@ -1,0 +1,18 @@
+@import "style.css";
+.stickhead {
+    position: relative;
+    z-index: 1;
+}
+
+.stickhead.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.stickhead.fixed.absolute {
+    position: absolute;
+}
