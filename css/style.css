@@ -1,6 +1,6 @@
-.followMeBar,
+.stickhead,
 .fixed {
-    background: #999;
+    background: linear-gradient(#999, #000);
     padding: 10px 0px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
     width: 100%;
@@ -17,4 +17,9 @@ body {
 
 p {
     font-family: helvetica;
+}
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
 }

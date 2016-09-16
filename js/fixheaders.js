@@ -38,5 +38,5 @@ var stickyHeaders = (function () {
     };
 })();
 $(function () {
-    stickyHeaders.load($(".followMeBar"));
+    stickyHeaders.load($(".stickhead"));
 });

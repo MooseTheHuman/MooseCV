@@ -1,10 +1,10 @@
 @import "style.css";
-.followMeBar {
+.stickhead {
     position: relative;
     z-index: 1;
 }
 
-.followMeBar.fixed {
+.stickhead.fixed {
     position: fixed;
     top: 0;
     left: 0;
@@ -13,6 +13,6 @@
     z-index: 0;
 }
 
-.followMeBar.fixed.absolute {
+.stickhead.fixed.absolute {
     position: absolute;
 }
