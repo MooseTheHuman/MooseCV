@@ -1,14 +1,13 @@
 .stickhead,
 .fixed {
-    background: linear-gradient(#999, #000);
+    background: linear-gradient(#3c4c3d, #000d01);
     padding: .8em 3em;
     box-shadow: 0 .05em .25em rgba(0, 0, 0, .7);
     /* text-align: justify; */
-    color: #fff;
 }
 
 body {
-    background: whitesmoke;
+    background: #05270d;
     margin: auto 0;
 }
 
@@ -24,4 +23,8 @@ p {
 .moose {
     margin: auto 0;
     text-align: center;
+}
+
+* {
+    color: #8fb1b1;
 }
