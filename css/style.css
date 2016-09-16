@@ -1,36 +1,18 @@
-.followMeBar {
+.followMeBar,
+.fixed {
     background: #999;
     padding: 10px 0px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
     width: 100%;
-    height: 6em;
     margin: auto 0;
     text-align: center;
     color: #fff;
 }
 
-.header h1 {
-    display: inline-block;
-}
-
-.content {
-    margin: 10%;
-    align-content: center;
-    font-size: 1.2em;
-}
-
-.main-body {
-    position: relative;
-}
-
-.transformation {
-    position: relative;
-    top: 6em;
-    /* outdated with fixed header removal? */
-}
-
 body {
     background: whitesmoke;
+    padding: 0;
+    margin: 0;
 }
 
 p {
